@@ -1,8 +1,0 @@
-{
-  "input": "仅替换最终 CNN 输入中算法新增的补边。原图自带边框属于内容，不修改。内容像素逐图断言不变。",
-  "scope": "主结果看 has_padding；all 表示整批影响；no_padding 是不变输入对照，不能混为有效干预。",
-  "precision": "默认 FP32 且禁用 TF32；与此前 BF16 的 original 可能略有差异。所有新变体与本轮 original 配对。",
-  "scores": "沿用 checkpoint 的原阈值，不重选。另报 logit_margin 排序指标，避免仅看饱和 softmax。",
-  "previews": "legacy_bars10/canvas10 仅预览，不参与本轮指标；COCO样本在推理结果之外固定选择。",
-  "statistics": "p值未做多重比较校正，帧相关性未处理；探索性结果不等于真实跨来源泛化。"
-}
