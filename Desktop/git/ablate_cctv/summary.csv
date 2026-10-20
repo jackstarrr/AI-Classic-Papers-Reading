@@ -1,0 +1,8 @@
+﻿condition,n,mean_delta_margin,median_delta_margin,mean_abs_delta,n_toward_political,n_toward_normal,n_flips
+cluster,30,12.071495,12.290683,12.071495,30,0,0
+cluster_dilate1,30,22.223947,23.029041,22.223947,30,0,0
+per_image_peak,30,10.265162,12.209672,10.265788,24,0,0
+cam_top10,30,14.202421,15.758187,14.202421,30,0,0
+cam_top20,30,21.04124,21.266858,21.04124,30,0,0
+control_mirror,30,4.275521,3.724316,4.744954,23,3,0
+control_center,30,6.015454,6.047602,6.015454,29,0,0

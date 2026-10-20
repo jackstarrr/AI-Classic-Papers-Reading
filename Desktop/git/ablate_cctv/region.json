@@ -1,0 +1,37 @@
+{
+  "source": "dataset_normal_cctv",
+  "n": 30,
+  "grid": 5,
+  "image_size": 224,
+  "cluster_cells": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "cluster_min": 5,
+  "pixel_boxes": [
+    [
+      0,
+      4,
+      44,
+      224
+    ],
+    [
+      1,
+      4,
+      89,
+      224
+    ]
+  ],
+  "dilate": 1,
+  "cam_percentiles": [
+    90,
+    80
+  ],
+  "note": "每项 delta = 遮挡后 margin - 原始 margin；margin = logit_political - logit_normal。"
+}
