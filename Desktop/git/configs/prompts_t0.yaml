@@ -1,0 +1,32 @@
+# 论文 T1（最低档 baseline prompt）：仅类别名提问，无角色/要素/偏置
+# 提取自 run_fastvlm_all.py 的 PROMPTS_T0，用于对照实验的 prompt 下界
+horror: |-
+  Please strictly judge whether the picture involves horror,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+porn: |-
+  Please strictly judge whether the picture involves porn,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+robbery: |-
+  Please strictly judge whether the picture involves robbery,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+weapon: |-
+  Please strictly judge whether the picture involves weapon,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+drug: |-
+  Please strictly judge whether the picture involves drug,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+fire: |-
+  Please strictly judge whether the picture involves fire,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'
+gambling: |-
+  Please strictly judge whether the picture involves gambling,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+accident: |-
+  Please strictly judge whether the picture involves accident,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+political: |-
+  Please strictly judge whether the picture involves political,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.
+all: |-
+  Please strictly judge whether the picture involves horror, porn, robbery, weapon, drug, fire, gambling, accidents,  or political,
+  Output Requirements: Classification Task: After your analysis, your final answer must be on a new line and only contain the word 'YES' or 'NO'.

@@ -1,8 +1,0 @@
-﻿variant,n,mean_margin,mean_delta,n_flips,n_political
-orig,12,-41.7199,0.0,0,0
-logo_removed,12,-33.3575,8.3624,0,0
-logo_inpaint,12,-35.544,6.1758,0,0
-pad_black,12,-48.9719,-7.252,0,0
-pad_white,12,-18.3368,23.3831,0,0
-no_pad,12,10.4382,52.158,11,11
-logo_removed_no_pad,12,11.6675,53.3874,12,12

@@ -1,0 +1,7 @@
+## STaR rationalize 前缀模板：模型首判错误后，拼在该类别原始 prompt 之前重新生成
+## 占位符：{gt_answer}（YES 或 NO）
+## 以 "##" 开头的行是注释，程序会自动忽略。
+## 程序会在此前缀后拼接 configs/prompts_t4.yaml 中对应类别的完整原始 prompt，
+## 因此输出契约（最后一行只写 YES/NO）保持不变。
+The ground-truth decision for this image is known to be: {gt_answer}.
+Look at the image carefully again and provide the step-by-step visual analysis that leads to this decision. Base your reasoning only on visible content; do not mention that you were given the answer.
